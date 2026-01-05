@@ -14,8 +14,8 @@ const AboutSection = () => {
 
   const testimonials = [
   {
-    text: "Remap made the car considerably more powerful throughout the rev range without sacrificing any efficiency. Tristan was very flexible with times and managed to get the exact date and time I needed. Very good for fitting aftermarket parts and advice. 10/10 will definitely come back soon.",
-    name: "Matthew Lewis",
+    text: "Wow, so glad I didn't listen to negative reviews.Absolutely amazing job done. 1st class service, communication and quality work at a fantastic price, answered any questions promptly.100% use again and highly recommend. 5* plus.",
+    name: "Amy Mccarty",
   },
 
 ]

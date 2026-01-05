@@ -6,8 +6,8 @@ import "aos/dist/aos.css";
 
 const services = [
   {
-    title: "ECU remapping",
-    desc: `process of modifying a vehicle’s engine control software to improve performance.`,
+    title: "Service",
+    desc: `Full car servicing to keep your vehicle running smoothly and efficiently.`,
     image: "/carpaint.avif",
     path: "/services/mechanical",
   },
@@ -19,8 +19,8 @@ const services = [
     path: "/services/service",
   },
   {
-    title: "Service",
-    desc: `Full car servicing to keep your vehicle running smoothly and efficiently.`,
+    title: "Performance Tuning",
+    desc: `Full car servicing to keep your vehicle running smoothly and efficientlyOptimising a vehicle’s engine and systems to improve power, torque, throttle response.`,
     image: "/carmechanic.avif",
     path: "/services/mot",
   },
@@ -149,10 +149,10 @@ const ServiceSection = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="absolute inset-0 w-[90%] mt-25 rounded-2xl mx-auto h-20 object-cover"
+                    className="absolute inset-0 w-[80%] mt-25 rounded-2xl mx-auto h-30 object-cover"
                     onError={(e) => {
                       e.currentTarget.onerror = null;
-                      e.currentTarget.src = "/logo.jpg"; // fallback logo
+                      e.currentTarget.src = "/logo.png"; // fallback logo
                     }}
                   />
 
